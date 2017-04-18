@@ -1,0 +1,76 @@
+.pgalerie {
+     padding-top: 150px;
+    background: url('../images/head-galerie.jpg');
+    background-size: cover;
+    height: 350px;
+}
+
+    .pgalerie h1 {
+        color: #fff;
+        background: url('../images/double-line-top.png') repeat-x center top;
+    }
+.sidebar-item {
+    margin-bottom: 30px;
+}
+
+.sidebar-item.gallery-menu, .sidebar-item.menu {
+    background-color: #fafafa;
+    background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ffffff), color-stop(100%, #f7f7f7));
+    background: -webkit-linear-gradient(left, #ffffff, #f7f7f7);
+    background: -moz-linear-gradient(left, #ffffff, #f7f7f7);
+    background: -o-linear-gradient(left, #ffffff, #f7f7f7);
+    background: linear-gradient(left, #ffffff, #f7f7f7);
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    padding: 24px 26px;
+}
+
+
+.sidebar-item.gallery-menu .nav-pills > li.actives a, .sidebar-item.gallery-menu .nav-pills > li.actives a:hover, .sidebar-item.menu .nav-pills > li.actives a, .sidebar-item.menu .nav-pills > li.actives a:hover {
+    background-color: #7d5daf;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8b6eb7), color-stop(100%, #644891));
+    background: -webkit-linear-gradient(top, #8b6eb7, #644891);
+    background: -moz-linear-gradient(top, #8b6eb7, #644891);
+    background: -o-linear-gradient(top, #8b6eb7, #644891);
+    background: linear-gradient(top, #8b6eb7, #644891);
+    color: white;
+}
+.sidebar-item.gallery-menu .nav-pills > li > a, .sidebar-item.menu .nav-pills > li > a {
+    position: relative;
+    margin-left: -26px;
+    margin-right: -36px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding-left: 26px;
+    font-weight: bold;
+    color: #727272;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.gallery {
+    margin-left: -4.66%;
+}
+
+    .gallery .picture {
+        width: 18%;
+        margin-left: 4.66%;
+        float: left;
+        margin-bottom: 30px;
+    }
+@media screen and (max-width: 770px) {
+    .pgalerie {
+       height: 200px;
+       padding-top: 100px;
+    }
+    .title-area h1 {
+        font-size: initial;
+    }
+    .sidebar-item.gallery-menu, .sidebar-item.menu {
+        padding: 0;
+    }
+    .sidebar-item.gallery-menu .nav-pills > li > a, .sidebar-item.menu .nav-pills > li > a {
+       margin-right: -16px;
+    }
+}
