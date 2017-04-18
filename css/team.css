@@ -1,0 +1,35 @@
+.pequipe {
+      padding-top: 150px;
+    background: url('../images/sliders/hair-4.jpg') no-repeat center;
+   background-size: cover;
+   height: 350px;
+}
+
+    .pequipe h1 {
+        color: #fff;
+        background: url('../images/double-line-top.png') repeat-x center top;
+    }
+.paragraph-1 {
+	font-size: 16px;
+	text-align: justify;
+	line-height: 23px;
+}    
+@media screen and (max-width: 470px) {
+	.pequipe {
+		height: 200px;
+   padding-top: 100px;
+	}
+	 .title-area h1 {
+        font-size: initial;
+    }
+    .happy-people {
+    	padding: 0;
+    	width: 320px;
+    }
+    .team-images img {
+    	width: 100px;
+    	float: none;
+    	padding: 0;
+    	margin: 0 5%;
+    }
+}
