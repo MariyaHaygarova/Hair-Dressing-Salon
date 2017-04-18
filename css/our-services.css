@@ -1,0 +1,87 @@
+.pprestas {
+    padding-top: 150px;
+    background: url('../images/head-prestations.jpg');
+     background-size: cover;
+    height: 350px;
+}
+
+    .pprestas h1 {
+        color: #fff;
+        background: url('../images/double-line-top.png') repeat-x center top;
+    }
+.presta {
+    font-size: 14px;
+    list-style-image: url('../images/list-arrow.png');
+}
+.pres {
+	margin-right: 15%;
+}
+.blog-content img.pull-right {
+    margin-left: 15%;
+}
+
+.blog-content img.pull-left {
+    margin-right: 15px;
+}
+.btn-theme.rounded-2 {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.btn {
+    font-family: 'PT Sans';
+    padding: 9px 12px;
+}
+
+.btn-theme {
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #7355a3;
+    background-image: -moz-linear-gradient(top, #7d5daf, #644891);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7d5daf), to(#644891));
+    background-image: -webkit-linear-gradient(top, #7d5daf, #644891);
+    background-image: -o-linear-gradient(top, #7d5daf, #644891);
+    background-image: linear-gradient(to bottom, #7d5daf, #644891);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF7D5DAF', endColorstr='#FF644891', GradientType=0);
+    border-color: #644891 #644891 #412e5e;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    *background-color: #644891;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+    .btn-theme:hover, .btn-theme:active, .btn-theme.active, .btn-theme.disabled, .btn-theme[disabled] {
+        color: white;
+        background-color: #644891;
+        *background-color: #593f80;
+    }
+
+    .btn-theme:active, .btn-theme.active {
+        background-color: #4d376f \9;
+    }
+
+.opening-time {
+	margin-bottom: 20%;
+}
+@media screen and (max-width: 770px) {
+     .pprestas {
+        height: 200px;
+       padding-top: 100px;
+    }
+    .title-area h1 {
+        font-size: initial;
+    }
+    main img {
+        width: 130px;
+        height: auto;
+    }
+    main ul {
+        margin-left: 5%;
+    }
+}
