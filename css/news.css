@@ -1,0 +1,46 @@
+.pactus {
+     padding-top: 150px;
+    background: url('../images/head-actus.jpg');
+    background-size: cover;
+   height: 350px;
+}
+
+    .pactus h1 {
+        color: #fff;
+        background: url('../images/double-line-top.png') repeat-x center top;
+    }
+
+ .lined h5,
+    .lined .meta-data {
+        color: #999999;
+        margin: 0;
+        font-weight: normal;
+    }
+
+    .lined .meta-data {
+        font-family: "PT Sans";
+    }
+
+        .lined .meta-data a {
+            color: #805fb3;
+            font-weight: bold;
+        }
+.blog-content img.pull-right {
+    margin-left: 15px;
+}
+
+.blog-content img.pull-left {
+    margin-right: 15px;
+}
+.unstyled {
+	list-style-type: none;
+}
+@media screen and (max-width: 470px) {
+    .pactus {
+         height: 200px;
+        padding-top: 100px;
+    }
+    .title-area h1 {
+        font-size: initial;
+    }
+}
