@@ -1,0 +1,61 @@
+
+    .psalon {
+     padding-top: 150px;
+    background: url('../images/sliders/hair-1.jpg') no-repeat center;
+       background-size: cover;
+   height: 350px;
+}
+
+    .psalon h1 {
+        color: #fff;
+        background: url('../images/double-line-top.png') repeat-x center top;
+    }
+.lined {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.divide-line {
+    position: relative;
+    border-bottom: 3px double #e5e5e5;
+    height: 15px;
+    margin: 20px 0 36px;
+    overflow: visible;
+}
+.icons-scissors {
+    background-position: 0 0;
+    height: 43px;
+    width: 43px;
+}
+
+
+.gallery {
+    margin: 50px 0;
+}
+.gallery img {
+    border: 2px solid #000;
+    margin-right: 4%;
+}
+
+.sidebar-item {
+    margin-bottom: 30px;
+}
+.unstyled {
+    list-style-type: none;
+}
+@media screen and (max-width: 770px) {
+    .psalon {
+         height: 200px;
+   padding-top: 100px;
+    }
+    .title-area h1 {
+        font-size: initial;
+    }
+    .gallery {
+        margin: 0;
+    }
+    .gallery img {
+        width: 85px;
+        height: 55px;
+        display: inline-block;
+    }
+}
